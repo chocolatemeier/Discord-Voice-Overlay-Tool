@@ -34,6 +34,31 @@
 本程式本質上是一個透明網頁容器，你可以嘗試貼上任何網址來實現懸浮監控功能。
 > **注意**：無邊框模式下始終保持「穿透點擊」特性，這是專為不干擾操作而設計。
 
+##🛠️ 常見問題 (Q&A)
+從透明模式切換回移動模式後，視窗不見了？
+
+請點擊工作列上的程式圖示，視窗就會重新出現在最上層。
+
+使用其他網站時，畫面出現大面積空白？
+
+在透明模式下，程式背景是完全透明的。如果該網站本身沒有設定背景顏色（或是去背網頁），就會顯示為空白。
+
+什麼是「穿透點擊」？
+
+這意味著當你切換到透明模式後，你的滑鼠可以直接點擊並操作該視窗後方的應用程式，不會被本工具阻擋。
+
+在透明模式下不能移動視窗嗎？
+
+為了避免顯示錯誤（Bug），透明模式下禁止移動。請在「有邊框模式」下調整好位置與大小，再切換至透明模式。
+
+可以自訂 Discord 的顯示樣式嗎？
+
+可以，但需要透過專門提供 Discord Overlay 樣式的第三方網站。只要將產生的網址（URL）貼進本程式即可。
+
+語音頻道人數太多，視窗太小怎麼辦？
+
+在「有邊框模式」下，你可以像調整一般視窗一樣，直接拖曳邊緣來拉大或縮小視窗。
+
 如果您發現了其他有趣的用法（例如：放置簡易計時器、歌詞顯示等），歡迎分享討論！
 
 
@@ -82,3 +107,28 @@ This application acts as a transparent web container. You can paste any URL to c
 Note: The "Click-Through" feature remains active in frameless mode regardless of the website used. This is by design to ensure the tool never obstructs your primary workflow.
 
 We encourage users to discover and share creative uses (e.g., floating timers, lyric displays, or news tickers)!
+
+##🛠️ FAQ
+The window disappeared after switching back from transparent mode?
+
+Simply click the application icon in your taskbar, and the window will resurface to the front.
+
+Why is there a large blank area when using other websites?
+
+In transparent mode, the app's background is set to clear. If the website you've loaded doesn't have a background color, it will appear empty.
+
+What is "Click-Through"?
+
+It means that when in transparent mode, your mouse can click and interact with any application behind the window as if the overlay isn't there.
+
+Can I move the window while in transparent mode?
+
+To prevent UI glitches, moving is disabled in transparent mode. Please position and resize the window in "Windowed Mode" before switching to transparent.
+
+Can I customize the Discord style?
+
+Yes, but this is handled by third-party Discord overlay styling websites. Once you have a custom URL, simply paste it into this app.
+
+The window is too small for many users in the channel?
+
+In "Windowed Mode," you can resize the window by dragging its edges just like any standard application window.
