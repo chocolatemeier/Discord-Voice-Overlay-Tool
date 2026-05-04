@@ -37,7 +37,7 @@
 如果您發現了其他有趣的用法（例如：放置簡易計時器、歌詞顯示等），歡迎分享討論！
 
 
-English Version
+# English Version
 Discord Voice Status Tool (v1.8.0)
 A minimalist desktop application built with Electron, designed to transform the Discord Streamkit Overlay web page into a versatile, toggleable floating window.
 
